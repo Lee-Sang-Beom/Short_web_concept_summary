@@ -1,8 +1,11 @@
-const obj1 = {key: '1'};
-const obj2 = {key2: '2'};
-const merge = {...obj1, ...obj2};
+let time_count = 0;
+const timer = setInterval(() => {
+  console.log("타이머");
+  time_count++;
 
-merge.key2=100;
+  
+}, 1000);
 
-console.log(obj2);
-console.log(merge);
+if (time_count === 5) {
+    clearInterval(timer);
+  }
