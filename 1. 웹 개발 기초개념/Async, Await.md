@@ -15,6 +15,7 @@
 ===
 
 ## (추가) promise, await/async 차이
+
  - promise를 사용할 때는, 후속처리 메소드인 catch()문으로 에러 핸들링이 가능하지만,
  - async/await은 async 함수의 결과로서, promise 객체를 return받기를 기다리는 await문을 try문으로 감싸는 try-catch() 문을 활용할 수 있습니다.
 
