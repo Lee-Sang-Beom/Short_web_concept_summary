@@ -52,7 +52,8 @@
 
 7.객체 리터럴에서, 
  - 객체의 키를 대괄호로 동적 생성이 가능합니다
- - Shorthand property names : name, value 문자열이 같은 경우에는 단축하여 표기가 가능합니다. (쇼트핸드 프로퍼티 네임)
+ - 객체 내 메소드 생성의 간소화가 가능합니다. (key,function 키워드 생략)
+ - Shorthand property names : name, value 문자열이 같은 경우에는 단축하여 표기가 가능합니다. 
 
 ---
 
