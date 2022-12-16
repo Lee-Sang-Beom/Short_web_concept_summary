@@ -17,4 +17,18 @@
 ---
 
 ## Set
-Set은 Map과 다르게, 중복을 허용하지 않는 값을 모아두며, 키를 따로 지장하지 않습니다. 
+
+- Set은 Map과 다르게 중복을 허용하지 않는 값을 모아두며, 키를 따로 지정하지 않습니다. 
+    - 즉, 중복되지 않는 값을 기록하기 위한 용도의 자료구조를 사용해야 할 때, 적합합니다.
+
+- Set에는 아래와 같은 메소드, 프로퍼티가 존재합니다.
+    - new Set(iterable) : Set 요소를 만듭니다. iterable 객체를 전달받으면, 그 안의 값을 복사해 Set에 넣어줍니다.
+    - set.add(value) : 값을 추가하고 Set 자신을 반환합니다.
+    - set.delete(value) : 값을 제거합니다. 호출 시점에 Set 내에 값이 있어서 제거에 성공하면 true, 아니면 false를 반환합니다.
+    - set.has(value) : Set 내에 값이 존재하면 true, 아니면 false를 반환합니다.
+    - set.clear() : Set을 비웁니다.
+    - set.size : Set에 몇 개의 값이 있는지 세줍니다.
+
+---
+
+### 참고자료 : https://ko.javascript.info/map-set
