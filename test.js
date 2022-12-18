@@ -4,5 +4,5 @@ console.log(rest);
 
 const arr = ["a", "b", "c", "d"]
 const [firstElement, ...rest2] = arr
-console.log(firstElement, arr) // "a"
+console.log(firstElement) // "a"
 console.log(rest2) // ["b", "c", "d"]
